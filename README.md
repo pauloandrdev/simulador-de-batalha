@@ -65,11 +65,11 @@ O simulador se passa no reino de Eldoria, um mundo de fantasia medieval onde mag
 |                 |
 +--------+--------+--------+
 |        |        |        |
-+--------+  +-----+  +-----+
++--------+  +-----+  +-----+---+
 | Guerreiro | Mago  | Arqueiro |
-+--------+  +-----+  +-----+
++--------+  +-----+  +-----+---+-+
 | + furia   | + mana | + precisao|
-+---------+ +------+ +-------+
++---------+ +------+ +-------+---+
 ```
 
 ## 🛠️ Tecnologias Utilizadas
