@@ -1,47 +1,47 @@
-# 🧙‍♂️ Medieval Fantasy Battle Simulator
+# 🧙‍♂️ Simulador de Batalha de Fantasia Medieval
 
-A turn-based character battle simulator set in a rich medieval fantasy world. This project demonstrates comprehensive object-oriented programming principles while providing an engaging battle simulation experience.
+Um simulador de batalhas entre personagens por turnos ambientado em um rico mundo de fantasia medieval. Este projeto demonstra princípios abrangentes da programação orientada a objetos, proporcionando uma experiência envolvente de simulação de batalhas.
 
-## 📌 Project Overview
+## 📌 Visão Geral do Projeto
 
-This battle simulator allows players to create and customize characters from different classes (Warrior, Mage, Archer), equip them with various items, and engage in turn-based battles. The project showcases object-oriented programming concepts including inheritance, polymorphism, mixins, composition, and association.
+Este simulador de batalha permite que os jogadores criem e personalizem personagens de diferentes classes (Guerreiro, Mago, Arqueiro), equipem-nos com diversos itens e participem de batalhas por turnos. O projeto exibe conceitos de programação orientada a objetos, incluindo herança, polimorfismo, mixins, composição e associação.
 
-## 🌍 Universe & Context
+## 🌍 Universo & Contexto
 
-The simulator is set in the realm of Eldoria, a medieval fantasy world where magic and martial prowess coexist. Various character classes harness different powers:
+O simulador se passa no reino de Eldoria, um mundo de fantasia medieval onde magia e habilidades marciais coexistem. Diversas classes de personagens utilizam diferentes poderes:
 
-- **Warriors**: Masters of physical combat with superior strength and defensive capabilities
-- **Mages**: Wielders of arcane magic with powerful spells but limited physical defense
-- **Archers**: Ranged specialists with high accuracy and critical strike potential
+- **Guerreiros**: Mestres do combate físico com força superior e alta capacidade defensiva  
+- **Magos**: Usuários de magia arcana com feitiços poderosos, mas defesa física limitada  
+- **Arqueiros**: Especialistas em combate à distância com alta precisão e chance de golpe crítico  
 
-## 📝 Use Cases
+## 📝 Casos de Uso
 
-### Creating a Character
-1. User selects a character class (Warrior, Mage, Archer)
-2. User customizes character attributes (name, appearance, stats)
-3. User assigns initial equipment
-4. System saves the character
+### Criando um Personagem
+1. O usuário seleciona uma classe (Guerreiro, Mago, Arqueiro)  
+2. O usuário personaliza os atributos (nome, aparência, estatísticas)  
+3. O usuário atribui o equipamento inicial  
+4. O sistema salva o personagem  
 
-### Initiating a Battle
-1. User selects two characters for battle
-2. System initializes the battle arena
-3. Battle proceeds with turn-based actions
-4. System records and displays battle actions
-5. Winner is determined when one character's health reaches zero
+### Iniciando uma Batalha
+1. O usuário seleciona dois personagens para batalhar  
+2. O sistema inicializa a arena de batalha  
+3. A batalha ocorre em turnos  
+4. O sistema registra e exibe as ações do combate  
+5. Um vencedor é determinado quando a vida de um personagem chega a zero  
 
-### Managing Character Inventory
-1. User selects a character
-2. User adds, removes, or equips items
-3. System updates character stats based on equipment
-4. Changes are saved
+### Gerenciando o Inventário do Personagem
+1. O usuário seleciona um personagem  
+2. O usuário adiciona, remove ou equipa itens  
+3. O sistema atualiza os atributos com base nos equipamentos  
+4. As alterações são salvas  
 
-### Saving/Loading Progress
-1. User selects save option
-2. System serializes character data
-3. System stores data in persistent storage
-4. User can load saved characters later
+### Salvando/Carregando Progresso
+1. O usuário seleciona a opção de salvar  
+2. O sistema serializa os dados do personagem  
+3. Os dados são armazenados de forma persistente  
+4. O usuário pode carregar os personagens salvos posteriormente  
 
-## 📊 Class Diagram
+## 📊 Diagrama de Classes
 
 ```
 +-------------------+       +-------------------+       +-------------------+
@@ -72,21 +72,21 @@ The simulator is set in the realm of Eldoria, a medieval fantasy world where mag
 +---------+ +------+ +-------+
 ```
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.10+**: Core logic and OOP implementation
-- **Flask**: Web server for the frontend
-- **HTML/CSS**: User interface design
-- **Pickle/JSON**: Data serialization for saving/loading state
+- **Python 3.10+**: Lógica principal e implementação POO  
+- **Flask**: Servidor web para o frontend  
+- **HTML/CSS**: Design da interface do usuário  
+- **Pickle/JSON**: Serialização de dados para salvar/carregar estado  
 
-## 🚀 Getting Started
+## 🚀 Primeiros Passos
 
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the application: `python main.py`
-4. Open the web interface at `http://localhost:5000`
+1. Clone o repositório  
+2. Instale as dependências: `pip install -r requirements.txt`  
+3. Execute a aplicação: `python main.py`  
+4. Acesse a interface web em `http://localhost:5000`  
 
-## 🔄 Project Structure
+## 🔄 Estrutura do Projeto
 
 ```
 simulador_batalha/
@@ -117,9 +117,9 @@ simulador_batalha/
 │   ├── images/
 ```
 
-## 📈 Evaluation Criteria
+## 📈 Critérios de Avaliação
 
-- Program functionality with all required features (6 pts)
-- OOP modeling with inheritance, polymorphism, mixins, composition, association (6 pts)
-- Object serialization for saving character state (6 pts)
-- Functional and clear graphical interface (2 pts)
+- Funcionalidade do programa com todos os recursos requeridos (6 pts)  
+- Modelagem POO com herança, polimorfismo, mixins, composição, associação (6 pts)  
+- Serialização de objetos para salvar estado dos personagens (6 pts)  
+- Interface gráfica funcional e clara (2 pts) 
